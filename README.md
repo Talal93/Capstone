@@ -1,6 +1,6 @@
 # Capstone Project Proposal
 
-# Team Members: 
+## Team Members: 
 Bilal Yussef: https://github.com/BilalYussef
 Talal Almutairi: https://github.com/Talal93 
 Yazeid Alqahtani: https://github.com/yazeidmq 
