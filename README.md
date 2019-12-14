@@ -6,25 +6,27 @@ Talal Almutairi: https://github.com/Talal93
 Yazeid Alqahtani: https://github.com/yazeidmq 
 
 ### What is your problem statement?  What will you actually be doing?
-Noon is a new online e-commerce website in UAE, KSA and Egypt. Noon in KSA is Suffering from bad reputation due to fact that some sellers inside noon are selling non-original products. Although Noon takes extreme measures when finding such sellers (including banning the seller and re-funding the customer), damage is already done, and the company's credibility is lost. 
-Machine learning might help Noon discovering these fraudulent sellers before any incident, and thus, saving their reputation and retaining their customer's trust.
+steel sheets manufacturing processes always involve some kind of imperfections resulting in many defects on the final product. Having defects in the steel sheets is inevitable, and most industries require a free of defect steel sheets for their applications. Although the steel sheets are very common, the inspection of these defects is still a challenge and it requires an expert worker to identify such defects in addition to the time and cost spent on this inspection. Using deep learning and computer vision algorithms we can both enhance the accuracy of defects detection and reduce the time and cost associated with it.
 
 ### Who is your audience?  Why will they care?
-This project target e-commerce companies in general and Noon in specific. For an e-commerce, reputation and credibility is the most important factor. If people stop trusting an e-commerce website for any reason, that website will most probably go bankrupt. 
+This project target the steel sheets manufacturers around the globe.  This project could potentially save them lots of time and cost in addition to improving the accuracy of detecting the defects.
 
 ### What is your success metric?  How will you know if you are actually solving the problem?
-We can measure our success by the number of customer complaints about fraudulent sellers. If it decreases with a certain percentage (the company will decide that percentage) then we can say that we have solved the problem.
+The success metrics in this project are basically two metrics: 
+- Accuracy of defects detection (significantly higher than the baseline accuracy).
+- Time required by the model to yield the predictions.
 
 ### What is your data source?  What format is your data in?  How much cleaning and munging will be required?
-The data source is Noon itself. The data is structured data containing the information of the sellers including the banned ones. 
+The data source is Kaggle open data. The data is unstructured data of steel sheets images provided by Severstal company. The data also includes the true labels of the images in a csv file. The images are in grayscale, and neither the images nor the csv file requires cleaning or munging processes.
 
 ### What are potential challenges or obstacles and how will you mitigate them?
+**1.	We don’t have much experience in dealing with computer vision and neural networks,
 
-•	For the new sellers it might be more difficult to classify whether the seller is Fraudulent or not. 
-It can be solved by analyzing the products that the seller post on the website for the first time or designing another model for analyzing these products.
-•	Since the data that Noon have includes people privacy. The way that this data will be shared might impose some challenges.
-We will be ready to work with any type of data (e.g. unlabeled data, unknown features).
+We’ll try by studying from Kaggle kernals and benefit from others experience.
+
+**2.	 Image processing usually requires a lot of computational power and time to achieve the wanted results.
+
+We will use google collab or Kaggle kernels if required.
 
 ### Is this a reasonable project given the time constraints that you have?
-For fraud detection, the problem is simple classification, which we are very confident dealing with. 
-Thus, we believe that such project is very reasonable given the time constrains.
+Considering the available resources for learning the problem, the project is doable in the given time frame.
